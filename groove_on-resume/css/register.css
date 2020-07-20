@@ -1,0 +1,86 @@
+.reg-wrapper{
+display: grid;
+position: absolute;
+background:linear-gradient(to bottom, #9400d399 0%, #4b008299), url(../img/concert-bg.png) no-repeat center center;
+min-height: 100vh; 
+min-width: 100vw;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-attachment: fixed;
+background-size: cover;
+animation-name: fadeIn;
+animation-duration: 1s;
+transition-timing-function: linear;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+.reg-box{
+    margin: auto;
+}
+
+@media(max-width:1468px){
+    .reg-header img{
+        height:  54px;
+        transition: 0.2s;
+        margin: 0 auto;
+        display: grid;
+    }
+}
+
+form{
+    display: grid;
+    padding: 2px;
+   place-items: center;
+}
+
+form input{
+width: 29rem;
+height: 46px;
+margin-bottom: 24px;
+}
+        
+form label{
+    color: #fff;
+    line-height: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.reg-sign-up-btn{
+    border-width: 0;
+    background: linear-gradient(90deg, #DA22FF 0%, #9733EE 100%);
+    width: 211px;
+    height: 64px;
+    text-align: center;
+    place-items:center;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    display: grid;
+}
+
+.reg-sign-up-btn a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+

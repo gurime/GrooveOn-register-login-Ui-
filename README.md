@@ -1,1 +1,1 @@
-# GrooveOn-register-login-Ui is a register and login UI for a music app.
+# GrooveOn is a register and login UI for a music app.
